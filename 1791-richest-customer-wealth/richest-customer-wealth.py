@@ -1,11 +1,11 @@
 class Solution(object):
     def maximumWealth(self, accounts):
-        richest=0
+        rich=0
         for i in accounts:
             wealth=sum(i)
-            if wealth>richest:
-                richest=wealth
-        return richest
+            if wealth>rich:
+                rich=wealth
+        return rich
         
         
         
